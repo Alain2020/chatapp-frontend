@@ -32,11 +32,10 @@
 }
 .chat__messageList{
     flex: 1;
-    padding: 1em 0 1em 0;
+    padding: 1em 0 0 0;
     overflow: scroll;
 }
 .chat__messageList::-webkit-scrollbar{
-    width: 0px;
     display: none;
 }
 .chat__inputMessage {
